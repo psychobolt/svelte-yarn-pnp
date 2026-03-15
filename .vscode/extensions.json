@@ -3,8 +3,6 @@
 		"arcanis.vscode-zipfs",
 		"dbaeumer.vscode-eslint",
 		"stylelint.vscode-stylelint",
-		"unifiedjs.vscode-mdx",
-		"bierner.lit-html",
-		"nojsja.vscode-nvm"
+		"svelte.svelte-vscode"
 	]
 }

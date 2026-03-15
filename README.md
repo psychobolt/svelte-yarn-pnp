@@ -16,7 +16,7 @@ yarn create svelte@latest my-app
 
 ## Setup
 
-1. Install Node > 22 and `enable corepack`
+1. Install Node >= 22 and run `corepack enable `
 2. Create a `.env` file and set `YARN_GLOBAL_FOLDER` e.g. `YARN_GLOBAL_FOLDER=D:/.yarn/.berry`
 3. `yarn install`
 
@@ -25,6 +25,7 @@ yarn create svelte@latest my-app
 1. Copy `.vscode/settings.default.json` > .vscode/settings.json
 2. Replace `${workspaceFolder}` with absolute path
 3. Restart VSCode
+4. Install all recomended extensions and use workspace TypeScript version
 
 ## Developing
 
