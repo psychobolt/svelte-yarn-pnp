@@ -1,6 +1,7 @@
 node_modules
 .vercel
 .svelte-kit
+dist
 *.tsbuildinfo
 vite.config.*.timestamp-*
 telemetry.json
