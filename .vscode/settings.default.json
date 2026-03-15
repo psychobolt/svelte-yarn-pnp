@@ -1,0 +1,25 @@
+{
+	"search.exclude": {
+		"**/.yarn": true,
+		"**/.pnp.*": true
+	},
+	"typescript.tsdk": ".yarn/sdks/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.validate.enable": true,
+	"editor.tabSize": 2,
+	"eslint.nodePath": ".yarn/sdks",
+	"eslint.runtime": "node",
+	"eslint.execArgv": ["${workspaceFolder}/bin/swc-node.js"],
+	"eslint.options": {
+		"flags": ["unstable_native_nodejs_ts_config"]
+	},
+	"eslint.validate": [
+		"markdown",
+		"mdx",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"stylelint.validate": ["css", "scss"]
+}
